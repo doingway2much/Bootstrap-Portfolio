@@ -2,7 +2,8 @@ body {
     background: no-repeat center center fixed;
     background-image: url("http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg");
     background-size: cover;
-
+    min-height: 98vh;
+    position: relative;
 }
 
 h2 {
@@ -23,8 +24,12 @@ form {
 }
 
 .profile {
-    margin: 0 auto;
     margin-bottom: 15px;
+    margin-right: 50px;
+    margin-left: 10px;
+    
+    /* margin: 0 auto; */
+   
 }
 
 .my-icon {
@@ -40,7 +45,7 @@ form {
 }
 
 .my-nav .navbar-brand:hover {
-    color: lightgrey;
+    color: #B1E3FA;
 }
 
 .my-nav .nav-link {
@@ -52,7 +57,8 @@ form {
 }
 
 .my-nav .active {
-    background-color: black;
+    background-color: #3F95DE;
+    color: black;
 }
 
 .fab.fa-linkedin {
@@ -70,18 +76,25 @@ form {
     border-color: white;
     color: white;
 }
-.btn-outline-dark {
-    background-color: red;
-}
-.card-img-top {
-    /* width:400px;
-    height: 250px; */
+.jumbotron {
+    background-image: url("https://image.shutterstock.com/image-illustration/background-frosted-glass-260nw-540803386.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    text-align:center;
+    
 }
 
+.card-text {
+    margin-bottm: 25px;
+}
 .page-footer {
-    background-color: #00183C;
+    
+    position:fixed;
     color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+	bottom:0;
+	width:100%;
+	/* height:60px;		 */
+	background:#00183C;
+
 }
