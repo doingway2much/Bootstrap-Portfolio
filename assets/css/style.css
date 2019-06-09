@@ -3,6 +3,13 @@ body {
     background-size: cover;
 }
 
+h2 {
+    margin-left: 15px;
+    padding-bottom: 25px;
+}
+form {
+    margin-left: 15px;
+}
 .container {
     background-color: white;
     margin: 10px;
@@ -60,8 +67,15 @@ body {
     border-color: white;
     color: white;
 }
+.card-img-top {
+    /* width:400px;
+    height: 250px; */
+}
 
 .page-footer {
     background-color: #00183C;
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
