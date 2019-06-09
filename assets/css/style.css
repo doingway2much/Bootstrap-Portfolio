@@ -1,6 +1,6 @@
 body {
     background-image: url("https://marketingweek.imgix.net/content/uploads/2017/05/12103940/Coding-featured.jpg");
-    background-size: cover; 
+    background-size: cover;
 }
 
 .container {
@@ -10,7 +10,58 @@ body {
     width: 95%;
     font-family: font-family: 'Roboto', sans-serif;
 }
+
 .profile {
     margin: 0 auto;
     margin-bottom: 15px;
+}
+
+.my-icon {
+    background-color: lightgrey;
+}
+
+.my-nav {
+    background-color: #00183C;
+}
+
+.my-nav .navbar-brand {
+    color: white;
+}
+
+.my-nav .navbar-brand:hover {
+    color: lightgrey;
+}
+
+.my-nav .nav-link {
+    color: white;
+}
+
+.my-nav .nav-link:hover {
+    color: lightgrey;
+}
+
+.my-nav .active {
+    background-color: lightgrey;
+    color: #00183C;
+}
+
+.fab.fa-linkedin {
+    margin-left: 8px;
+    color: white;
+    width: 100px;
+    height: 10px;
+}
+
+.fa.fa-navicon {
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+    color: white;
+}
+
+.page-footer {
+    background-color: #00183C;
+    color: white;
 }
