@@ -29,8 +29,7 @@ form {
 }
 .profile {
     margin-bottom: 15px;
-    /* margin-right: 50px; */
-    margin-left: 20px;
+    width:100%;
 }
 
 .my-icon {
