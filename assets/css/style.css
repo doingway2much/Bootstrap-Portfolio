@@ -1,6 +1,8 @@
 body {
-    background-image: url("https://marketingweek.imgix.net/content/uploads/2017/05/12103940/Coding-featured.jpg");
+    background: no-repeat center center fixed;
+    background-image: url("http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg");
     background-size: cover;
+
 }
 
 h2 {
@@ -9,13 +11,15 @@ h2 {
 }
 form {
     margin-left: 15px;
+    width: 80%;
 }
 .container {
     background-color: white;
     margin: 10px;
+    margin-top: 30px;
     padding: 10px;
     width: 95%;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .profile {
@@ -24,7 +28,7 @@ form {
 }
 
 .my-icon {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 .my-nav {
@@ -48,8 +52,7 @@ form {
 }
 
 .my-nav .active {
-    background-color: lightgrey;
-    color: #00183C;
+    background-color: black;
 }
 
 .fab.fa-linkedin {
@@ -66,6 +69,9 @@ form {
 .custom-toggler.navbar-toggler {
     border-color: white;
     color: white;
+}
+.btn-outline-dark {
+    background-color: red;
 }
 .card-img-top {
     /* width:400px;

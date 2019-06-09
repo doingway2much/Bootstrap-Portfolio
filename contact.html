@@ -14,6 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Place your kit's code here -->
@@ -22,7 +25,8 @@
 
 <body>
     <nav class="navbar my-nav navbar-expand-lg">
-        <a class="navbar-brand" href="https://www.linkedin.com/in/sethrandell/" target="_blank">Seth Randell<i class="fab fa-lg fa-linkedin"></i> </a>
+        <a class="navbar-brand" href="https://www.linkedin.com/in/sethrandell/" target="_blank">Seth Randell<i
+                class="fab fa-lg fa-linkedin"></i> </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars fa-1x"></i></span>
@@ -30,54 +34,54 @@
         <!-- <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span> -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container">
+    
+    <div class="container shadow p-3 mb-5 bg-white rounded">
+        
         <div class="row">
             <form>
-                    <div class="form-group">
-                            <label for="guestName">Name</label>
-                            <input type="name" class="form-control" id="inputNmae" placeholder="name">
-                          </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                <div class="form-group">
+                    <label for="guestName">Name</label>
+                    <input type="name" class="form-control" id="inputNmae" placeholder="Full Name">
                 </div>
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
-            <a href="#"> doingway2much.com</a>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Contact Form</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Let me know what your trying to acomplish and we can go from there." rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </form>
         </div>
-
-    </footer>
-    <!-- Footer -->
-    <!--[if lt IE 7]>
+    </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small blue">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="#"> doingway2much.com</a>
+            </div>
+        </footer>
+        <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <script src="" async defer></script>
+        <script src="" async defer></script>
 </body>
 
 </html>
