@@ -5,7 +5,9 @@ body {
     min-height: 98vh;
     position: relative;
 }
-
+p {
+    margin: 10px;
+}
 h2 {
     margin-left: 15px;
     padding-bottom: 25px;
@@ -22,7 +24,9 @@ form {
     width: 95%;
     font-family: 'Roboto', sans-serif;
 }
-
+.display-4 {
+        text-decoration: none;
+}
 .profile {
     margin-bottom: 15px;
     margin-right: 50px;
@@ -77,16 +81,22 @@ form {
     color: white;
 }
 .jumbotron {
-    background-image: url("https://image.shutterstock.com/image-illustration/background-frosted-glass-260nw-540803386.jpg");
+    /* background-image: url("https://tecjobs.net/wp-content/uploads/2018/01/Navy-background.jpg"); */
+    background-image: url("https://us.123rf.com/450wm/nadianb/nadianb1606/nadianb160600032/58435821-dark-background-wooden-navy-horizontal-boards-background-empty-for-design.jpg?ver=6");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 15px;
     text-align:center;
+    color: white;   
+}
+.jumbo {
+    text-decoration: none;
+    color: White;
     
 }
 
 .card-text {
-    margin-bottm: 25px;
+    margin-bottom: 25px;
 }
 .page-footer {
     
