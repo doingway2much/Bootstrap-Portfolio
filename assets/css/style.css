@@ -76,6 +76,10 @@ form {
     border-color: white;
     color: white;
 }
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.70);
+}
 .jumbotron {
     /* background-image: url("https://tecjobs.net/wp-content/uploads/2018/01/Navy-background.jpg"); */
     background-image: url("https://us.123rf.com/450wm/nadianb/nadianb1606/nadianb160600032/58435821-dark-background-wooden-navy-horizontal-boards-background-empty-for-design.jpg?ver=6");
