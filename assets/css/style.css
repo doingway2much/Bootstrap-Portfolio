@@ -13,6 +13,7 @@ h2 {
     padding-bottom: 25px;
 }
 form {
+    text-align: center;
     margin-left: 15px;
     width: 80%;
 }
@@ -26,6 +27,11 @@ form {
 }
 .display-4 {
         text-decoration: none;
+}
+
+.d-block{ 
+    width: 500px;
+    height: 750px;
 }
 .profile {
     margin-bottom: 15px;
