@@ -67,11 +67,17 @@ form {
     color: black;
 }
 
-.fab.fa-linkedin {
+.liTop {
     margin-left: 8px;
     color: white;
     width: 100px;
     height: 10px;
+}
+
+#bigIcon {
+    margin-top: 10px;
+    /* size: 9x; */
+    color: #3F95DE;
 }
 
 .fa.fa-navicon {
@@ -82,9 +88,37 @@ form {
     border-color: white;
     color: white;
 }
+/*carousel indicators */
+.carousel-indicators li, {
+    background: #f00 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 50%;
+    height: 50px;
+    margin: 3px;
+    opacity: 0.5;
+    width: 50px;
+  }
+  /*active slide indicator */
+  .carousel-indicators .active {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #3F95DE;
+  }
+  
 
 .carousel-caption {
+    width:100%;
+    height:%;
+    left:0 !important;
     background: rgba(0, 0, 0, 0.70);
+}
+
+
+.carousel-caption h3 {
+  /* text-align:left;
+  margin-left:30px; */
+}
+.carousel-caption p {
+  /* margin-top:40%; */
 }
 .jumbotron {
     /* background-image: url("https://tecjobs.net/wp-content/uploads/2018/01/Navy-background.jpg"); */
@@ -114,3 +148,76 @@ form {
 	background:#00183C;
 
 }
+.star > span:hover:before {
+    color: #00183C;
+    content: "\2605";
+    position: absolute;
+ }
+/* New Stle */
+* {
+    box-sizing: border-box;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    background: #efefef;
+    box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+  }
+ 
+  
+  .input {
+    position: absolute;
+    opacity: 0;
+  }
+  .label {
+    width: 100%;
+    padding: 20px 30px;
+    background: #e5e5e5;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: #7f7f7f;
+    transition: background 0.1s, color 0.1s;
+  }
+  
+  .label:hover {
+    background: #d8d8d8;
+  }
+  
+  .label:active {
+    background: #00183C;
+  }
+  
+  .input:focus + .label {
+    /* box-shadow: inset 0px 0px 0px 3px #00183C; */
+    z-index: 1;
+  }
+  
+  .input:checked + .label {
+    background: #fff;
+    color: #000;
+  }
+  
+  @media (min-width: 600px) {
+    .label {
+      width: auto;
+    }
+  }
+
+  .panel {
+    display: none;
+    padding: 20px 30px 30px;
+    background: #fff;
+  }
+  
+  @media (min-width: 600px) {
+    .panel {
+      order: 99;
+    }
+  }
+  
+  .input:checked + .label + .panel {
+    display: block;
+  }
