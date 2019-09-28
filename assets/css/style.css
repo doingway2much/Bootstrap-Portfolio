@@ -3,225 +3,221 @@
 } */
 
 body {
-    background: no-repeat center center fixed;
-    background-image: url("http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg");
-    background-size: cover;
-    min-height: 98vh;
-    position: relative;
+  background: no-repeat center center fixed;
+  background-image: url("http://www.pptbackgrounds.org/uploads/silver-light-blue-wave-abstract-backgrounds-powerpoint.jpg");
+  background-size: cover;
+  min-height: 98vh;
+  position: relative;
 }
 p {
-    margin: 10px;
+  margin: 10px;
+  font-size: 20x;
 }
 h2 {
-    margin-left: 15px;
-    padding-bottom: 25px;
+  margin-left: 15px;
+  padding-bottom: 25px;
 }
 form {
-    text-align: center;
-    margin-left: 15px;
-    width: 80%;
+  text-align: center;
+  margin-left: 15px;
+  width: 80%;
 }
 .container {
-    background-color: white;
-    margin: 10px;
-    margin-top: 30px;
-    padding: 10px;
-    width: 95%;
-    font-family: 'Roboto', sans-serif;
+  background-color: white;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  width: 95%;
+  font-family: "Roboto", sans-serif;
 }
 .display-4 {
-        text-decoration: none;
+  text-decoration: none;
 }
 
-.d-block{ 
-    width: 500px;
-    height: 750px;
+#contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.d-block {
+  width: 500px;
+  height: 750px;
 }
 .profile {
-    margin-bottom: 15px;
-    width:100%;
+  margin-bottom: 15px;
+  width: 100%;
 }
 
 .my-icon {
-    /* background-color: lightgrey; */
+  /* background-color: lightgrey; */
 }
 
 .my-nav {
-    background-color: #00183C;
+  background-color: #00183c;
 }
 
 .my-nav .navbar-brand {
-    color: white;
+  color: white;
 }
 
 .my-nav .navbar-brand:hover {
-    color: #B1E3FA;
+  color: #b1e3fa;
 }
 
 .my-nav .nav-link {
-    color: white;
+  color: white;
 }
 
 .my-nav .nav-link:hover {
-    color: lightgrey;
+  color: lightgrey;
 }
 
 .my-nav .active {
-    background-color: #3F95DE;
-    color: black;
+  background-color: #3f95de;
+  color: black;
 }
 
 #liTop {
-    margin-left: 8px;
-    color: white;
-    width: 100px;
-    height: 10px;
+  margin-left: 8px;
+  color: white;
+  width: 100px;
+  height: 10px;
 }
 
 #bigIcon {
-    margin-top: 10px;
-    /* size: 9x; */
-    color: #00183C;
+  margin-top: 10px;
+  /* size: 9x; */
+  color: #00183c;
 }
 
 .fa.fa-navicon {
-    color: white;
+  color: white;
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: white;
-    color: white;
+  border-color: white;
+  color: white;
 }
 /*carousel indicators */
-.carousel-indicators li, {
-    background: #f00 none repeat scroll 0 0;
-    border: 0 none;
-    border-radius: 50%;
-    height: 50px;
-    margin: 3px;
-    opacity: 0.5;
-    width: 50px;
-  }
-  /*active slide indicator */
-  .carousel-indicators .active {
-    background: #fff none repeat scroll 0 0;
-    border: 2px solid #3F95DE;
-  }
-  
+/* .carousel-indicators li {
+  background: #f00 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 50%;
+  height: 50px;
+  margin: 3px;
+  opacity: 0.5;
+  width: 50px;
+} */
+/*active slide indicator */
+.carousel-indicators .active {
+  /* background: #fff none repeat scroll 0 0;
+  border: 0px solid rgb(0, 0, 0); */
+  color: black;
+}
 
 .carousel-caption {
-    width:100%;
-    height:%;
-    left:0 !important;
-    background: rgba(0, 0, 0, 0.70);
-}
-
-
-.carousel-caption h3 {
-  /* text-align:left;
-  margin-left:30px; */
-}
-.carousel-caption p {
-  /* margin-top:40%; */
+  width: 100%;
+  height: %;
+  left: 0 !important;
+  background: rgba(0, 0, 0, 0.4);
 }
 .jumbotron {
-    /* background-image: url("https://tecjobs.net/wp-content/uploads/2018/01/Navy-background.jpg"); */
-    background-image: url("https://us.123rf.com/450wm/nadianb/nadianb1606/nadianb160600032/58435821-dark-background-wooden-navy-horizontal-boards-background-empty-for-design.jpg?ver=6");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 15px;
-    text-align:center;
-    color: white;   
+  /* background-image: url("https://tecjobs.net/wp-content/uploads/2018/01/Navy-background.jpg"); */
+  background-image: url("https://us.123rf.com/450wm/nadianb/nadianb1606/nadianb160600032/58435821-dark-background-wooden-navy-horizontal-boards-background-empty-for-design.jpg?ver=6");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
 }
 .jumbo {
-    text-decoration: none;
-    color: White;
-    
+  text-decoration: none;
+  color: White;
 }
 
 .card-text {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 .page-footer {
-    
-    position:fixed;
-    color: white;
-	bottom:0;
-	width:100%;
-	/* height:60px;		 */
-	background:#00183C;
-
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  /* height:60px;		 */
+  background: #00183c;
 }
 .star > span:hover:before {
-    color: #00183C;
-    content: "\2605";
-    position: absolute;
- }
+  color: #00183c;
+  content: "\2605";
+  position: absolute;
+}
 /* New Stle */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 700px;
-    background: #efefef;
-    box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
-  }
- 
-  
-  .input {
-    position: absolute;
-    opacity: 0;
-  }
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  background: #efefef;
+  box-shadow: 0 48px 80px -32px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+}
+.label {
+  width: 100%;
+  padding: 20px 30px;
+  background: #e5e5e5;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  color: #7f7f7f;
+  transition: background 0.1s, color 0.1s;
+}
+
+.label:hover {
+  background: #d8d8d8;
+}
+
+.label:active {
+  background: #00183c;
+}
+
+.input:focus + .label {
+  /* box-shadow: inset 0px 0px 0px 3px #00183C; */
+  z-index: 1;
+}
+
+.input:checked + .label {
+  background: #fff;
+  color: #000;
+}
+
+@media (min-width: 600px) {
   .label {
-    width: 100%;
-    padding: 20px 30px;
-    background: #e5e5e5;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 18px;
-    color: #7f7f7f;
-    transition: background 0.1s, color 0.1s;
+    width: auto;
   }
-  
-  .label:hover {
-    background: #d8d8d8;
-  }
-  
-  .label:active {
-    background: #00183C;
-  }
-  
-  .input:focus + .label {
-    /* box-shadow: inset 0px 0px 0px 3px #00183C; */
-    z-index: 1;
-  }
-  
-  .input:checked + .label {
-    background: #fff;
-    color: #000;
-  }
-  
-  @media (min-width: 600px) {
-    .label {
-      width: auto;
-    }
-  }
+}
 
+.panel {
+  display: none;
+  padding: 20px 30px 30px;
+  background: #fff;
+}
+
+@media (min-width: 600px) {
   .panel {
-    display: none;
-    padding: 20px 30px 30px;
-    background: #fff;
+    order: 99;
   }
-  
-  @media (min-width: 600px) {
-    .panel {
-      order: 99;
-    }
-  }
-  
-  .input:checked + .label + .panel {
-    display: block;
-  }
+}
+
+.input:checked + .label + .panel {
+  display: block;
+}
